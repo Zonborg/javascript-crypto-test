@@ -223,7 +223,7 @@ try {
 console.log('\n================== KEY DERIVATION ==================');
 
 // PBKDF2 with various digests
-const pbkdf2Digests = ['sha1', 'sha256', 'sha384', 'sha512', 'sha3-256', 'sha3-512'];
+const pbkdf2Digests = ['sha1', 'sha256', 'sha384', 'sha512', 'sha3-256', 'sha3-512', null];
 console.log('  --- PBKDF2 ---');
 pbkdf2Digests.forEach(digest => {
   try {
